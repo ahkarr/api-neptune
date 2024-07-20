@@ -1,0 +1,20 @@
+{
+  "name": "api-neptune",
+  "version": "1.0.0",
+  "description": "neptune db api log transaction",
+  "main": "index.js",
+  "scripts": {
+    "api-connect": "node --env-file .env db_connect.js",
+    "api-insert": "node --env-file .env db_insert.js",
+    "api-search": "node --env-file .env db_query.js",
+    "api-delete": "node --env-file .env db_delete.js",
+    "api-truncate": "node --env-file .env db_truncate.js",
+    "api-dropdb": "node --env-file .env drop_db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

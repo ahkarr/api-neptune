@@ -1,14 +1,14 @@
 # api-neptune
 neptune db api log transaction 
 
-# config node and mysql
+### config node and mysql
 npm init --yes
 npm install mysql
 
-# create neptune database
+### create neptune database
 CREATE DATABASE IF NOT EXISTS neptune;
 
-# api list
+### api list
 | api       	| description 			   |
 | :------------ | :----------------------- |				
 | api-connect	| connect neptune database |
@@ -18,7 +18,7 @@ CREATE DATABASE IF NOT EXISTS neptune;
 | api-truncate  | truncate table		   |
 | api-dropdb	| drop neptune database    |
 
-# run api
+### run api
 npm run-script [api-name]
 
 npm run api-connect
